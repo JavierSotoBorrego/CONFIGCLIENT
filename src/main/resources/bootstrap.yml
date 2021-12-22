@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: produccion
+    # active: test
+  application:
+    name: configclient
+  cloud:
+      enabled: true
+      uri: http://localhost:8888/
